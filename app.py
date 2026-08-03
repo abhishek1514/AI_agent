@@ -370,7 +370,7 @@ with col_input:
         "Research Topic",
         placeholder="e.g. Search here",
         key="topic_input",
-        label_visibility="visible"
+        label_visibility="visible",
     )
     run_btn = st.button("⚡  Run Research Pipeline", use_container_width=True)
     # anchor link to jump to results section
