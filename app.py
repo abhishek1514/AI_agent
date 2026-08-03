@@ -366,11 +366,11 @@ with col_input:
     # center the input card by constraining width and using margin auto
     st.markdown('<div style="display:flex;justify-content:center;">', unsafe_allow_html=True)
     st.markdown('<div class="input-card" style="max-width:760px;width:100%;">', unsafe_allow_html=True)
-    topic = st.text_input(
+     topic = st.text_input(
         "Research Topic",
         placeholder="e.g. Search here",
         key="topic_input",
-        label_visibility="visible",
+        label_visibility="visible"
     )
     run_btn = st.button("⚡  Run Research Pipeline", use_container_width=True)
     # anchor link to jump to results section
